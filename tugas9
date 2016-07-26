@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
+
+
+int main()
+{
+int i;
+int a[11];
+for(i=0;i<=5;i++)
+{
+printf("\nMasukkan data ke %i :",i);
+scanf("%i",&a[i]);
+}
+for(i=0;i<=5;i++)
+{
+printf("\nData ke %i adalah : %i",i,a[i]);
+}
+getch();
+}
