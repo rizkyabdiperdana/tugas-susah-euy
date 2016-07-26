@@ -16,5 +16,5 @@ for(i=0;i<=5;i++)
 {
 printf("\nData ke %i adalah : %i",i,a[i]);
 }
-
+getch();
 }
